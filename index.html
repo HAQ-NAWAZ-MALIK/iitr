@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image To Text Converter</title>
+    <title>Image To Text  OCR Converter</title>
     <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
     <style>
         body {
@@ -94,8 +94,8 @@
     </style>
 </head>
 <body>
-    <h1>Image To Text Converter</h1>
-    <h2>Extract Hindi Text From Image</h2>
+    <h1>Image To Text OCR Converter</h1>
+    <h2>Extract Hindi/Englis or both Text From Image</h2>
 
     <div class="note">
         <p>Note: This application is being built on the request of IIT R Internship Assignment. It allows users to upload a single image, processes the image to extract text using OCR, and provides a basic search feature.</p>
@@ -113,9 +113,10 @@
         <img id="preview" src="" alt="Preview">
         <div class="options">
             <select id="languageSelect">
+                <option value="hin+eng">Hindi + English</option>
                 <option value="hin">Hindi Only</option>
                 <option value="eng">English Only</option>
-                <option value="hin+eng">Hindi + English</option>
+        
             </select>
             <select id="lineSelect">
                 <option value="keep">Keep New Lines</option>
