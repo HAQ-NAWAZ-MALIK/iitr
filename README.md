@@ -1,6 +1,7 @@
 ## A IITR Based assign project
 ---
 # OCR Image to Text Converter
+![image](https://github.com/user-attachments/assets/7674cd94-560c-4a70-b2ed-d8d8d32b5aed)
 
 ## Overview
 
@@ -13,7 +14,8 @@ This project is an OCR (Optical Character Recognition) application that allows u
 - Visualize OCR results with bounding boxes around detected text
 - Search functionality within the extracted text
 - Example images provided for testing
-## Alternative Version
+## Alternative Version # VERCEL
+![image](https://github.com/user-attachments/assets/073cd940-cf8b-4885-8e0b-140ab7f220e7)
 
 An alternative, ready-to-use version of this OCR application is available on Vercel. You can access it [here](https://iitr-haq-nawaz-maliks-projects.vercel.app/).
 ## Technologies Used
