@@ -1,0 +1,7 @@
+opencv-python
+Pillow
+gradio
+torch
+easyocr
+numpy
+numpy 
